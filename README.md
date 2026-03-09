@@ -1,61 +1,60 @@
-# notix_pro
+# Notix Pro
 
-Premium Flutter notification kit with dark mode, 5 animation styles,
-bottom sheets, toasts, banners and dialogs.
+<p align="center">
+  <img src="images/coverimage/notix_pro_cover.png" width="900"/>
+</p>
 
-## Features
+Premium Flutter notification kit with **dark mode, 5 animation styles, bottom sheets, toasts, banners, and dialogs**.
 
-- ✅ NotixDialog – animated popup alerts with dark mode + animations
-- ✅ NotixToast – floating toast notifications (top or bottom)
-- ✅ NotixBanner – full-width banner notifications with action button
-- ✅ NotixSheet – bottom sheet alerts with multiple actions (PRO)
-- 🌙 Auto dark mode detection
-- 🎬 5 animation styles: bounce, flip, blur, slide, scale
-- 🎨 4 alert types: success, error, warning, info
-- 💡 Zero dependencies
+---
 
-## Installation
+## ✨ Features
+
+- ✅ **NotixDialog** – animated popup alerts with dark mode + animations  
+- ✅ **NotixToast** – floating toast notifications (top or bottom)  
+- ✅ **NotixBanner** – full-width banner notifications with action button  
+- ✅ **NotixSheet** – bottom sheet alerts with multiple actions (PRO)  
+
+### 🎨 Built-in Capabilities
+
+- 🌙 **Auto dark mode detection**
+- 🎬 **5 animation styles**
+  - bounce
+  - flip
+  - blur
+  - slide
+  - scale
+- 🎨 **4 alert types**
+  - success
+  - error
+  - warning
+  - info
+- 💡 **Zero dependencies**
+
+---
+
+## 📸 Screenshots
+
+<p float="left">
+  <img src="images/Screenshots/image1.jpg" width="200"/>
+  <img src="images/Screenshots/image2.jpg" width="200"/>
+  <img src="images/Screenshots/image3.jpg" width="200"/>
+  <img src="images/Screenshots/image4.jpg" width="200"/>
+</p>
+
+<p float="left">
+  <img src="images/Screenshots/image5.jpg" width="200"/>
+  <img src="images/Screenshots/image6.jpg" width="200"/>
+  <img src="images/Screenshots/image7.jpg" width="200"/>
+  <img src="images/Screenshots/image8.jpg" width="200"/>
+</p>
+
+---
+
+## 📦 Installation
+
+Add this to your `pubspec.yaml`:
+
 ```yaml
 dependencies:
   notix_pro: ^0.0.1
-```
-
-## Usage
-```dart
-import 'package:notix_pro/notix_pro.dart';
-
-// Dialog
-NotixDialog.show(context,
-  type: NotixType.success,
-  title: 'Payment Successful',
-  message: 'Your order is confirmed.',
-);
-
-// Toast
-NotixToast.show(context,
-  type: NotixType.error,
-  message: 'Upload failed.',
-);
-
-// Banner
-NotixBanner.show(context,
-  type: NotixType.warning,
-  message: 'Session expiring soon.',
-  actionLabel: 'Extend',
-);
-
-// Bottom Sheet
-NotixSheet.show(context,
-  type: NotixType.error,
-  title: 'Delete Account?',
-  message: 'This cannot be undone.',
-  actions: [
-    NotixSheetAction(label: 'Delete', onTap: () {}, isDestructive: true),
-    NotixSheetAction(label: 'Cancel', onTap: () {}, isSecondary: true),
-  ],
-);
-```
-
-## License
-
-MIT License — free for personal and commercial use.
