@@ -57,4 +57,4 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  notix_pro: ^0.0.1
+  notix_pro: ^0.0.2
