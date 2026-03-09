@@ -1,7 +1,9 @@
 name: notix_pro
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Kamali20072002/notix_pro
+repository: https://github.com/Kamali20072002/notix_pro
+issue_tracker: https://github.com/Kamali20072002/notix_pro/issues
 
 environment:
   sdk: ^3.10.4
